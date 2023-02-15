@@ -1,0 +1,9 @@
+export enum GatewayType {
+  ARWEAVE = 'ARWEAVE',
+  SIA = 'SIA',
+  FILECOIN = 'FILECOIN',
+  LAMBDA = 'LAMBDA',
+  STORJ = 'STORJ',
+  WRESERVE = 'WRESERVE',
+  SRESERVE = 'SRESERVE',
+}

@@ -1,0 +1,11 @@
+/**
+ * Dont include unsupported storage classes: REDUCED_REDUNDANCY, ONEZONE_IA, OUTPOSTS
+ */
+export enum StorageClass {
+  STANDARD = 'STANDARD',
+  STANDARD_IA = 'STANDARD_IA',
+  INTELLIGENT_TIERING = 'INTELLIGENT_TIERING',
+  GLACIER = 'GLACIER',
+  DEEP_ARCHIVE = 'DEEP_ARCHIVE',
+  GLACIER_IR = 'GLACIER_IR',
+}
